@@ -1,0 +1,10 @@
+services:
+#    app_demo.example:
+#        class: App\DemoBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+#/src/App/DemoBundle/Resources/config/service.yml
+services:
+    appdemo_event.listener.route:
+        class: App\DemoBundle\Events\EventListener\RouteEventListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.controller, method: onKernelController }

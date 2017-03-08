@@ -1,0 +1,4 @@
+app_demo_homepage:
+    path:     /test
+    defaults: { _controller: AppDemoBundle:Default:index }
+    service: appdemo_event.listener.route
