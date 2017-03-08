@@ -1,0 +1,11 @@
+{
+    "name": "nligo/command-bundle",
+    "description": "test",
+    "authors": [
+        {
+            "name": "nligo",
+            "email": "coffey@nligo.com"
+        }
+    ],
+    "require": {}
+}

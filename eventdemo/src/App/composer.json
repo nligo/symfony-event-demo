@@ -1,0 +1,13 @@
+{
+    "name": "nligo/demo",
+    "description": "this is symfony event demo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "nligo",
+            "email": "coffey@nligo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
